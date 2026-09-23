@@ -5,7 +5,7 @@ import { CheckOut } from "./CheckOut";
 
 
 test.use({
-    launchOptions: {slowMo: 900},
+    launchOptions: {slowMo: 700},
 });
 
 test("Playwright test locators", async ({page}) =>{
@@ -20,5 +20,7 @@ test("Playwright test locators", async ({page}) =>{
     await Shop.Locators();
 
     await checkout.CheckoutLocators();
+    await checkout.SelectCountry("Ge", "Germany");
+    await checkout.termsandConditions();
+    await checkout.PurchaseButton();
 });
-
