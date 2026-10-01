@@ -1,0 +1,12 @@
+[
+  {
+    "productName": "ZARA COAT 3",
+    "quantity": 2,
+    "validity": "valid"
+  },
+  {
+    "productName": "Ahmed",
+    "quantity": 1,
+    "validity": "invalid"
+  }
+]
