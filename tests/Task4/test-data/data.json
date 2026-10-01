@@ -1,0 +1,22 @@
+[
+  {
+    "username": "rahulshettyacademy",
+    "password": "Learning@830$3mK2",
+    "validity": "valid"
+  },
+  {
+    "username": "rahulshettyacademy",
+    "password": "wrong-pass",
+    "validity": "invalid"
+  },
+  {
+    "username": "not a user",
+    "password": "learning",
+    "validity": "invalid"
+  },
+  {
+    "username": " ",
+    "password": " ",
+    "validity": "invalid"
+  }
+]
