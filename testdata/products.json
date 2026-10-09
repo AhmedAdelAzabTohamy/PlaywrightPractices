@@ -1,0 +1,14 @@
+[
+  {
+    "productName": "ZARA COAT 3",
+    "validity": "valid"
+  },
+  {
+    "productName": "ADIDAS ORIGINAL",
+    "validity": "valid"
+  },
+  {
+    "productName": "INVALID PRODUCT",
+    "validity": "invalid"
+  }
+]

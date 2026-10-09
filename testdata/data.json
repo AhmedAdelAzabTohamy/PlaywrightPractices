@@ -1,0 +1,17 @@
+[
+  {
+    "userEmail": "ahmedd.TEST28@gmail.com",
+    "userPassword": "Test1234",
+    "validity": "valid"
+  },
+  {
+    "userEmail": "ahmedd.TEST28@gmail.com",
+    "userPassword": "Test1234567",
+    "validity": "invalid"
+  },
+  {
+    "userEmail": "test@test.com",
+    "userPassword": "Test1234",
+    "validity": "invalid"
+  }
+]

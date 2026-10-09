@@ -1,15 +1,26 @@
 {
+<<<<<<< HEAD
   "name": "playwrighttests",
+=======
+  "name": "task5",
+>>>>>>> 981fef5 (Add Playwright API tests for login, cart, checkout and order review)
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {},
   "keywords": [],
+<<<<<<< HEAD
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "devDependencies": {
     "@playwright/test": "^1.63.0",
     "@types/node": "^26.6.2"
+=======
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "@types/node": "^26.6.4"
+>>>>>>> 981fef5 (Add Playwright API tests for login, cart, checkout and order review)
   }
 }
