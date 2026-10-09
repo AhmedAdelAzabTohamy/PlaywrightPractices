@@ -18,12 +18,16 @@ jobs:
     - name: Install Playwright Browsers
       run: npx playwright install --with-deps
     - name: Run Playwright tests
+<<<<<<< HEAD
       run: |
         if [ "$GITHUB_EVENT_NAME" = "pull_request" ]; then
           npx playwright test tests/Task2
         else
           npx playwright test
         fi
+=======
+      run: npx playwright test
+>>>>>>> 981fef5 (Add Playwright API tests for login, cart, checkout and order review)
     - uses: actions/upload-artifact@v4
       if: ${{ !cancelled() }}
       with:

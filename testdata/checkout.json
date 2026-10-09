@@ -1,0 +1,20 @@
+[
+  {
+    "cardNumber": "1234567890123456",
+    "expiryMonth": "06",
+    "expiryYear": "28",
+    "cvv": "123",
+    "nameOnCard": "Ahmed Adel",
+    "country": "Germany",
+    "validity": "valid"
+  },
+  {
+    "cardNumber": " ",
+    "expiryMonth": "06",
+    "expiryYear": "28",
+    "cvv": "12",
+    "nameOnCard": "Ahmed Adel",
+    "country": "Germany",
+    "validity": "invalid"
+  }
+]
